@@ -10,7 +10,7 @@ try:
         for index in data:
             multiple = sequence[int(index)]*multiple
         data.close()
-        print('Последовательность от -N до N: ', sequence')
+        print('Последовательность от -N до N: ', sequence)
         print('Произведение двух чисел на позициях из файла =', multiple)
 except ValueError:
     print ('Вы ввели не целое число')
