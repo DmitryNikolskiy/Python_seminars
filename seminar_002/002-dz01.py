@@ -2,9 +2,9 @@ number = input('Введите число ')
 
 try:
     number = float(number)
-    sum = 0
+    summa = 0
     for i in str(number):
-        if i != "-" and i !=".": sum = sum + int(i)
-    print('Сумма чисел = ', sum)
+        if i != "-" and i !=".": summa = summa + int(i)
+    print('Сумма чисел = ', summa)
 except ValueError:
     print ('Вы ввели не вещественное число')
