@@ -26,3 +26,6 @@ for i in range(3):
 if result[0] == '+':
     result = result[1:]
 print(result)
+
+with open('polynom2.txt', 'w') as f:
+    f.write(result)
