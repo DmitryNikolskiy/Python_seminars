@@ -42,4 +42,4 @@ while '(' in my_list_out:
     bracket_right = my_list_out.index(')')
     my_list_out = my_list_out[:bracket_left] + calc(my_list_out[bracket_left + 1 : bracket_right]) + my_list_out[bracket_right+1:]
 
-print(calc(my_list_out))
+print(my_text + ' => ' + str(calc(my_list_out)[0]))
